@@ -8,4 +8,6 @@
   <input type="submit" value="search" class="button">
 </form>
 
-<%= @museums %>
+<% @museums.each do |museum| %>
+  <p><%= museum["text"] %></p>
+<% end %>
