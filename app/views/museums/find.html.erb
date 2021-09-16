@@ -1,0 +1,11 @@
+<h1>welcome to the museum database</h1>
+
+<form action="/" method="get">
+  <label for="longitude">longitude</label>
+  <input type="number" step="any" name="longitude" id="longitude">
+  <label for="latitude">latitude</label>
+  <input type="number" step="any" name="latitude" id="latitude">
+  <input type="submit" value="search" class="button">
+</form>
+
+<%= @museums %>
